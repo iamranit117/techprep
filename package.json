@@ -7,7 +7,7 @@
     "predeploy": "next build",
    "deploy": "next run build && gh-pages -d build",
     "dev": "next dev",
-    "build": "next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
