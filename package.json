@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "predeploy": "next build",
-   "deploy": "gh-pages -d build",
+   "deploy": "next run build && gh-pages -d build",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next export",
     "start": "next start",
     "lint": "next lint"
   },
