@@ -23,7 +23,7 @@ const postData: DataType[] = [
     heading: "Google",
     heading2: "",
     name: "",
-    imgSrc: "/assets/courses/google_.png",
+    imgSrc: "../../../public/assets/courses/google_.png",
     students: 30,
     classes: 5,
     price: 800,
@@ -33,7 +33,7 @@ const postData: DataType[] = [
     heading: "Facebook",
     heading2: "",
     name: "",
-    imgSrc: "/assets/courses/netflix_.png",
+    imgSrc: "../../../public/assets/courses/netflix_.png",
     students: 30,
     classes: 5,
     price: 800,
@@ -43,7 +43,7 @@ const postData: DataType[] = [
     heading: "Apple",
     heading2: "",
     name: "",
-    imgSrc: "/assets/courses/microsoft_.png",
+    imgSrc: "../../../public/assets/courses/microsoft_.png",
     students: 30,
     classes: 5,
     price: 800,
@@ -158,7 +158,7 @@ export default class MultipleItems extends Component {
                     <div className="flex justify-between pt-6">
                       <div className="flex gap-4">
                         <Image
-                          src={"/assets/courses/book-open.svg"}
+                          src={"../../../public/assets/courses/book-open.svg"}
                           alt="users"
                           width={24}
                           height={24}
@@ -170,7 +170,7 @@ export default class MultipleItems extends Component {
                       </div>
                       <div className="flex gap-4">
                         <Image
-                          src={"/assets/courses/users.svg"}
+                          src={"../../../public/assets/courses/users.svg"}
                           alt="users"
                           width={24}
                           height={24}

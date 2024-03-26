@@ -15,17 +15,17 @@ interface socialLinks {
 
 const socialLinks: socialLinks[] = [
   {
-    imgSrc: "/assets/footer/facebook.svg",
+    imgSrc: "../../../public/assets/footer/facebook.svg",
     link: "www.facebook.com",
     width: 10,
   },
   {
-    imgSrc: "/assets/footer/insta.svg",
+    imgSrc: "../../../public/assets/footer/insta.svg",
     link: "www.instagram.com",
     width: 14,
   },
   {
-    imgSrc: "/assets/footer/twitter.svg",
+    imgSrc: "../../../public/assets/footer/twitter.svg",
     link: "www.twitter.com",
     width: 14,
   },
@@ -64,7 +64,7 @@ const footer = () => {
         <div className="sm:col-span-6 lg:col-span-5">
           <div className="flex flex-shrink-0 items-center border-right">
             <Image
-              src="/assets/logo/logo.png"
+              src="../../../public/assets/logo/logo.png"
               alt="logo"
               width={214}
               height={66}

@@ -58,7 +58,7 @@ const Signin = () => {
                       <div>
                         <img
                           className="mx-auto h-15 w-auto"
-                          src="/assets/logo/logo.png"
+                          src="../../../public/assets/logo/logo.png"
                           alt="Your Company"
                         />
                         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">

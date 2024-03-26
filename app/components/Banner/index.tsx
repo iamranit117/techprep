@@ -8,7 +8,7 @@ const Banner = () => {
           <div className="col-span-6 flex flex-col justify-evenly">
             <div className="flex gap-2 mx-auto lg:mx-0">
               <Image
-                src="/assets/banner/check.svg"
+                src="../../../public/assets/banner/check.svg"
                 alt="check-image"
                 width={20}
                 height={20}
@@ -39,7 +39,7 @@ const Banner = () => {
                   className="p-3 lg:p-5 focus:outline-none focus:shadow-outline bg-ultramarine hover:bg-midnightblue duration-150 ease-in-out rounded-full"
                 >
                   <Image
-                    src={"/assets/banner/search.svg"}
+                    src={"../../../public/assets/banner/search.svg"}
                     alt="inputicon"
                     width={30}
                     height={30}
@@ -51,7 +51,7 @@ const Banner = () => {
             <div className="flex items-center justify-between pt-10 lg:pt-4">
               <div className="flex gap-2">
                 <Image
-                  src="/assets/banner/check-circle.svg"
+                  src="../../../public/assets/banner/check-circle.svg"
                   alt="check-image"
                   width={30}
                   height={30}
@@ -63,7 +63,7 @@ const Banner = () => {
               </div>
               <div className="flex gap-2">
                 <Image
-                  src="/assets/banner/check-circle.svg"
+                  src="../../../public/assets/banner/check-circle.svg"
                   alt="check-image"
                   width={30}
                   height={30}
@@ -75,7 +75,7 @@ const Banner = () => {
               </div>
               <div className="flex gap-2">
                 <Image
-                  src="/assets/banner/check-circle.svg"
+                  src="../../../public/assets/banner/check-circle.svg"
                   alt="check-image"
                   width={30}
                   height={30}
@@ -90,7 +90,7 @@ const Banner = () => {
 
           <div className="col-span-6 flex justify-center">
             <Image
-              src="/assets/banner/mahila.png"
+              src="../../../public/assets/banner/mahila.png"
               alt="nothing"
               width={1000}
               height={805}

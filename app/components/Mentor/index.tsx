@@ -15,22 +15,22 @@ const postData: DataType[] = [
   {
     profession: "Software Engineer at Meta",
     name: "Ranit Dey",
-    imgSrc: "/assets/linkedin/ranit.png",
+    imgSrc: "../../../public/assets/linkedin/ranit.png",
   },
   {
     profession: "Software Engineer at Delivery Hero",
     name: "Satyam Kumar",
-    imgSrc: "/assets/linkedin/satyam.png",
+    imgSrc: "../../../public/assets/linkedin/satyam.png",
   },
   {
     profession: "Testing engineer at Grab",
     name: "Yusuf Ansari",
-    imgSrc: "/assets/linkedin/tusuf.png",
+    imgSrc: "../../../public/assets/linkedin/tusuf.png",
   },
   {
     profession: "Testing engineer at Phonepe",
     name: "Saket Singh",
-    imgSrc: "/assets/linkedin/saket.png",
+    imgSrc: "../../../public/assets/linkedin/saket.png",
   },
 ];
 

@@ -10,22 +10,22 @@ interface Data {
 
 const data: Data[] = [
   {
-    imgSrc: "/assets/carousel/fedex.svg",
+    imgSrc: "../../../public/assets/carousel/fedex.svg",
   },
   {
-    imgSrc: "/assets/carousel/google.svg",
+    imgSrc: "../../../public/assets/carousel/google.svg",
   },
   {
-    imgSrc: "/assets/carousel/hubspot.svg",
+    imgSrc: "../../../public/assets/carousel/hubspot.svg",
   },
   {
-    imgSrc: "/assets/carousel/microsoft.svg",
+    imgSrc: "../../../public/assets/carousel/microsoft.svg",
   },
   {
-    imgSrc: "/assets/carousel/walmart.svg",
+    imgSrc: "../../../public/assets/carousel/walmart.svg",
   },
   {
-    imgSrc: "/assets/carousel/airbnb.svg",
+    imgSrc: "../../../public/assets/carousel/airbnb.svg",
   },
 ];
 
